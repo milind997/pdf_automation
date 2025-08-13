@@ -1,0 +1,53 @@
+An Al-based pipeline that extracts key fields from a wide variety of insurance forms for
+downstream processing and claims automation.
+
+Key Contributions:
+
+e Engineered OCR-first document parsing pipelines using Tesseract, EasyOCR,
+and fallback image preprocessing techniques.
+
+Used PDFMiner and OpenCV to isolate structured zones such as checkboxes,
+signature fields, tables, and input blocks.
+
+Applied document template matching to route input documents to
+appropriate parsing logic, increasing template match rate by 30%.
+
+Developed a hybrid approach using rule-based parsing with prompt-based
+LLMs (like Mistral and LayoutLM) for improved field recognition.
+
+Containerized services using Docker, and integrated them with Kafka-based
+message queues for scalable ingestion.
+
+Enabled logging, retry mechanisms, and failure tracking for documents with
+low confidence scores or extraction errors.
+
+Built validation dashboards to allow manual correction and learning feedback
+loop to further refine extraction logic.
+
+@ applications.
+
+e@ Implemented logging and monitoring tools for proactive issue resolution.
+
+e@ Provided technical support and mentorship to junior developers.
+
+Project Title: Certificial
+
+Insurance form extraction service where different types of insurance forms
+
+Description:
+P details has to be extracted for further downstream systems
+
+Collaborated closely with business analysts to gather and refine specifications,
+ensuring alignment with evolving business needs and accurately addressing
+defects or enhancement requests.
+
+Responsibilities
+
+Participated actively in the entire software development life cycle, including
+coding, debugging, performance optimization, and production support.
+
+Conducted high-level design and requirement elicitation sessions to translate
+business processes into technical specifications.
+
+Engineered a document intelligence system capable of accurately extracting
+
